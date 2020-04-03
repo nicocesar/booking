@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package hotel;
-option go_package = "api/hotel/proto;hotel";
+option go_package = "github.com/nicocesar/booking/api/hotel/proto;hotel";
 
 import "github.com/nicocesar/booking/srv/profile/proto/profile.proto";
 import "github.com/nicocesar/booking/srv/rate/proto/rate.proto";

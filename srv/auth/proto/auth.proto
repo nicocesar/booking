@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package auth;
-option go_package = "srv/auth/proto;auth";
+option go_package = "github.com/nicocesar/booking/srv/auth/proto;auth";
 
 service Auth {
   rpc VerifyToken(Request) returns (Result) {}

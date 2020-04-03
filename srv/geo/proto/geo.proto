@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package geo;
-option go_package = "srv/geo/proto;geo";
+option go_package = "github.com/nicocesar/booking/srv/geo/proto;geo";
 
 service Geo {
   // Finds the hotels contained nearby the current lat/lon.
